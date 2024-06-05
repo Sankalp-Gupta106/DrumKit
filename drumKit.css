@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+#container{
+    padding: 10px;
+    margin: 10px;
+    height: 100vh;
+    /* background-color: rgb(251, 145, 7); */
+    display: flex;
+ } 
+
+.Left{
+    height: 95%;
+    width: 50%;
+    /* background-color: rgb(2, 135, 251); */
+    /* border: 1px solid; */
+    background-image: url(assets_drumkit/drummer.avif);
+    background-size :cover;
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+}
+
+.Right{
+    height: 95%;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    /* border: 1px solid; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Right  > div{
+    height: 300px;
+    width: 300px;
+    /* padding-left :40px;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Right div  p{
+    font-size: 100px;
+    position: absolute;
+    color: whitesmoke;
+    background-color: transparent;
+    /* top:0;
+    left:0; */
+    
+}
+
+.Right  > div > img{
+    height: 280px;
+    width: 250px;
+    /* mix-blend-mode: multiplyfdf; */
+}
+
+.Right  > div:hover{
+    background-color: rgba(245, 245, 220, 0.7);
+}
